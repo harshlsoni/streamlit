@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load dataset
-df = pd.read_csv("Labeled_Data.csv")
+df = pd.read_csv("LabelledData.csv")
 
 # Condition weights for scoring
 condition_weights = {
