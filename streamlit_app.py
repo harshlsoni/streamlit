@@ -57,7 +57,7 @@ def recommend_top_foods_by_cluster(df, condition, healthy_cluster_label=0, top_n
             df_filtered = df_filtered[df_filtered["Type"] == 1]
 
     blocklists = {
-        'obesity': ["Classic italian pasta", "Potato canjee (Aloo canjee)", "Boiled rice (Uble chawal)", "Sweet corn soup", "Gingo"],
+        'obesity': ["Classic italian pasta","Meat stock", "Potato canjee (Aloo canjee)", "Boiled rice (Uble chawal)", "Sweet corn soup", "Gingo"],
         'low_bp': ["Carrot cake (Gajar ka cake)", "Apple banana pie", "Cheese pizza"],
         'diabetes': ["Jellied sunshine fruit salad", "Small onion pickle", "Mutton seekh kebab", "Fermented bamboo shoot pickle (Mesu pickle)", "Boti kebab", "Mango raita (Aam ka raita)", "Potato raita (Aloo ka raita)"],
         'high_bp': ["Mutton seekh kebab", "Boti kebab", "Dry masala chops", "Pasta hot pot", "Penne platter", "Cheese pizza"]
